@@ -2,12 +2,12 @@
   "name": "My dApp",
   "description": "A decentralized application built on the TON blockchain.",
 
-  "manifestUrl": "https://dapp-ho-mans-projects.vercel.app//tonconnect-manifest.json",
+  "manifestUrl": "https://dapp-ho-mans-projects.vercel.app/tonconnect-manifest.json",
   "url": "https://dapp-ho-mans-projects.vercel.app/",
   "wallets": [
     {
       "name": "Tonkeeper",
-      "iconUrl": "https://dapp-ho-mans-projects.vercel.app//wallet-icon.png",
+      "iconUrl": "https://dapp-ho-mans-projects.vercel.app/wallet-icon.png",
       "bridgeUrl": "https://bridge.ton.org",
       "methods": ["sendTransaction", "signMessage"]
     }
