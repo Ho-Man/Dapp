@@ -1,8 +1,15 @@
 {
-    "url": "https://localhost:3000",                   
-    "name": "My DApp",                                  
-    "iconUrl": "https://localhost:3000/icon.png",         
-    "termsOfUseUrl": "https://localhost:3000/terms",      
-    "privacyPolicyUrl": "https://localhost:3000/privacy"  
-  }
-  
+  "name": "My dApp",
+  "description": "A decentralized application built on the TON blockchain.",
+
+  "manifestUrl": "https://dapp-ho-mans-projects.vercel.app//tonconnect-manifest.json",
+  "url": "https://dapp-ho-mans-projects.vercel.app/",
+  "wallets": [
+    {
+      "name": "Tonkeeper",
+      "iconUrl": "https://dapp-ho-mans-projects.vercel.app//wallet-icon.png",
+      "bridgeUrl": "https://bridge.ton.org",
+      "methods": ["sendTransaction", "signMessage"]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ document.body.innerHTML = '<div id="app"></div>';
 
 const root = createRoot(document.getElementById('app'));
 root.render(
-  <TonConnectUIProvider manifestUrl='https://localhost:3000/tonconnect-manifest.json'>
+  <TonConnectUIProvider manifestUrl='https://dapp-ho-mans-projects.vercel.app/tonconnect-manifest.json'>
 
     <h1>Hello, Youtube</h1>
     <div style={{ padding: "10rem" }}>
